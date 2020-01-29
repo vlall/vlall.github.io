@@ -82,6 +82,9 @@ blockquote {
   position: relative;
   margin: 0 auto 35px;
   text-align: center;
+  // Added for grayscale
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
   a {
     background: #ddd url("logo_wrapper.png");
     color: #000;
